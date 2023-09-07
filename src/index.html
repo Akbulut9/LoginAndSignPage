@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="/dist/output.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper relative w-[750px] h-[450px] bg-transparent border-2 border-[#0ef] overflow-hidden ">
+        <span class="bg-animate"></span>
+        <span class="bg-animate2"></span>
+        <div class="form-box login absolute top-0 w-1/2 h-full  flex flex-col justify-center left-0 pr-[60px] pl-10 ">
+            <h2 class="animation text-3xl text-white text-center" style="--i:0;--j:21;">Login</h2>
+            <form action="#">
+                <div class="input-box animation relative w-full h-[50px] my-[25px]" style="--i:1;--j:22;">
+                    <input type="text" required
+                        class="w-full h-full bg-transparent  outline-none border-b-2 border-b-white duration-500 font-medium text-white pr-[23px]">
+                    <label
+                        class="absolute top-1/2 left-0 -translate-y-1/2  text-white pointer-events-none duration-500">Username</label>
+                    <i
+                        class='bx bxs-user absolute top-1/2 right-0 -translate-y-1/2 text-lg text-white duration-500'></i>
+                </div>
+                <div class="input-box animation relative w-full h-[50px] my-[25px]" style="--i:2;--j:23;">
+                    <input type="password" required
+                        class="w-full h-full bg-transparent  outline-none border-b-2 border-b-white duration-500 font-medium text-white pr-[23px]">
+                    <label
+                        class="absolute top-1/2 left-0 -translate-y-1/2  text-white pointer-events-none duration-500">Password</label>
+                    <i
+                        class='bx bxs-lock-alt absolute top-1/2 right-0 -translate-y-1/2 text-lg text-white duration-500 '></i>
+                </div>
+                <button type="submit" style="--i:3;--j:24;"
+                    class="btn animation relative w-full h-[45px] bg-transparent border-2 border-cyan-500 outline-none rounded-[40px] cursor-pointer text-white font-semibold z-[1] overflow-hidden">Login</button>
+                <div class="logreg-link animation text-sm text-white text-center mt-[20px] mb-[10px]" style="--i:4;--j:25;">
+                    <p>Dont'have an account ? <a href="#"
+                            class="register-link text-cyan-300 font-semiboldt hover:underline">Sign Up</a></p>
+                </div>
+            </form>
+        </div>
+        <div
+            class="info-text login  absolute top-0 right-0 w-1/2 h-full  flex flex-col justify-center text-right pt-0 pr-10 pb-[60px] pl-[150px] ">
+            <h2 class="animation text-4xl text-white uppercase " style="--i:0;--j:20;">Welcome Back</h2>
+            <p class="text-white animation" style="--i:1;--j:21;">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+
+
+        <div class="form-box register absolute top-0 w-1/2 h-full  flex flex-col justify-center right-0 pr-10 pointer-events-none">
+            <h2 class="animation text-3xl text-white text-center" style="--i:17;--j:0;">Sign Up</h2>
+            <form action="#">
+                <div class="input-box relative w-full h-[50px] my-[25px] animation " style="--i:18;--j:1;">
+                    <input type="text" required
+                        class="w-full h-full bg-transparent  outline-none border-b-2 border-b-white duration-500 font-medium text-white pr-[23px]">
+                    <label
+                        class="absolute top-1/2 left-0 -translate-y-1/2  text-white pointer-events-none duration-500">Username</label>
+                    <i
+                        class='bx bxs-user absolute top-1/2 right-0 -translate-y-1/2 text-lg text-white duration-500'></i>
+                </div>
+                <div class="input-box relative w-full h-[50px] my-[25px] animation " style="--i:19;--j:2;">
+                    <input type="text" required
+                        class="w-full h-full bg-transparent  outline-none border-b-2 border-b-white duration-500 font-medium text-white pr-[23px]">
+                    <label
+                        class="absolute top-1/2 left-0 -translate-y-1/2  text-white pointer-events-none duration-500">Email</label>
+                    <i
+                        class='bx bxs-envelope absolute top-1/2 right-0 -translate-y-1/2 text-lg text-white duration-500'></i>
+                </div>
+                <div class="input-box relative w-full h-[50px] my-[25px] animation " style="--i:20;--j:3">
+                    <input type="password" required
+                        class="w-full h-full bg-transparent  outline-none border-b-2 border-b-white duration-500 font-medium text-white pr-[23px]">
+                    <label
+                        class="absolute top-1/2 left-0 -translate-y-1/2  text-white pointer-events-none duration-500">Password</label>
+                    <i
+                        class='bx bxs-lock-alt absolute top-1/2 right-0 -translate-y-1/2 text-lg text-white duration-500 '></i>
+                </div>
+                <button type="submit"
+                    class="btn animation  relative w-full h-[45px] bg-transparent border-2 border-cyan-500 outline-none rounded-[40px] cursor-pointer text-white font-semibold z-[1] overflow-hidden"
+                    style="--i:21;--j:4">Sign
+                    Up</button>
+                <div class="logreg-link animation  text-sm text-white text-center mt-[20px] mb-[10px]" style="--i:22;--j:5">
+                    <p>Already have an account ? <a href="#"
+                            class="login-link text-cyan-300 font-semiboldt hover:underline">Login </a></p>
+                </div>
+            </form>
+        </div>
+        <div
+            class="info-text register absolute top-0 left-0 w-1/2 h-full  flex flex-col justify-center pl-10 pb-[60px] pr-[150px] ">
+            <h2 class="text-4xl animation  text-white uppercase font-bold " style="--i:17;--j:0">Welcome Back!</h2>
+            <p class="text-white animation    pr-[150px]" style="--i:18;--j:1">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
